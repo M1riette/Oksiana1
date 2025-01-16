@@ -1,0 +1,26 @@
+/* Style pour la page */
+body {
+    margin: 0;
+    overflow: hidden; /* Empêche la barre de défilement */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    /* Conteneur spécifique avec une image d'arrière-plan */
+    #background-container {
+    width: 100%;
+    height: 100vh;  /* Prend toute la hauteur de la fenêtre */
+    background-image: url('chemin/vers/ton-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+}
+
+/* Style pour le GIF */
+#gif {
+    width: 100px;  /* Ajuste la largeur du GIF */
+    height: 100px; /* Ajuste la hauteur du GIF */
+    position: absolute; /* Permet de déplacer l'image */
