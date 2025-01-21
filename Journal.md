@@ -24,3 +24,18 @@ Avancé du mini jeu qui devrait etre la battle contre le boss selon les fins. Ty
 
 Creation groupe projet GitHub - Mariette
 Creation d'un groupe Whatsapp - Mariette
+
+Avancé du mini jeu qui devrait etre la battle contre le boss selon les fins. Type dance dance Revolution simplifié-Naelle
+
+Creation groupe projet GitHub- Mariette ECHEC
+Creation groupe google drive- Carla
+
+
+JOUR 2:  16/01/2025
+
+Creation groupe projet GitHub- Mariette REUSSITE
+avancé sur les jeux des fleches- Naelle
+
+JOUR 3:  21/01/2025
+Envoie du lien Github- Mariette
+avancé sur les jeux des fleches- Naelle
