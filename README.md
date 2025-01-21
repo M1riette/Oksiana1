@@ -14,19 +14,21 @@ Page le jeu (html) Cohérences de dossier (choix, scène, deroulement) Graphisme
 
 ## JOUR 1: 14/01/2025
 
-" Apres des travaux a la maison, le personnage est capable de bouger une droite et une gauche sur une page html et de naviguer entre les pages (si le perso touch tout une droite de l’ecran il arrive sur une page d’ inverse et inversement)-Carla "
+CARLA / Apres des travaux a la maison, le personnage est capable de bouger une droite et une gauche sur une page html et de naviguer entre les pages (si le perso touch tout une droite de l’ecran il arrive sur une page d’ inverse et inversement)
 
-Avancé du mini jeu qui devrait etre la bataille contre le boss selon les nages. Type de danse de danse Revolution simplifié-Naelle
+NAELLE / Avancé du mini jeu qui devrait etre la bataille contre le boss selon les nages. Type de danse de danse Revolution simplifié
 
- - Groupe de création GitHub- Mariette ECHEC Groupe de création google drive- Carla
+ MARIETTE / Groupe de création GitHub
 
 ## JOUR 2: 16/01/2025
 
-Création groupé GitHub- Mariette REUSSITE Lit de transport des jeux des fleches- Naelle
+MARIETTE / Création de GitHub reussit
+NAELLE / Lit de transport des jeux des fleches
 
 ## JOUR 3: 21/01/2025 
 
-Envoie du lien Github-Mariette Liante sur les jeux des fleches- Naelle
+MARIETTE / Envoie du lien Github
+NAELLE / Avancement sur les jeux des fleches
 
 ```bash
 git clone https://github.com/votre-utilisateur/mon-projet.git
