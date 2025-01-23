@@ -30,6 +30,13 @@ NAELLE / Lit de transport des jeux des fleches
 MARIETTE / Envoie du lien Github
 NAELLE / Avancement sur les jeux des fleches
 
+
+## JOUR 4: 23/01/2025 
+
+MARIETTE / Creation pages HTML - Arborescence
+NAELLE / Absente
+CARLA / Absente
+
 ```bash
 git clone https://github.com/votre-utilisateur/mon-projet.git
 cd mon-projet
