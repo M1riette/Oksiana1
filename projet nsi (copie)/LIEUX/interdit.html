@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrôler le GIF avec les flèches</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #gif {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: left 0.1s linear;
+        }
+    </style>
+</head>
+<body>
+    <img id="gif" src="persotimed.gif" alt="GIF en mouvement">
+    
+    <script src="script.js"></script>
+</body>
+</html>
