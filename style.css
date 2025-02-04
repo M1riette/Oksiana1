@@ -1,0 +1,93 @@
+body {
+    	font-family: Arial, sans-serif;
+	flex-direction: column; /* Empile les éléments verticalement */
+	justify-content: center;
+    	align-items: center;
+    	margin: 0;
+	display: flex;
+    	background-color: #f8bbd0 ;
+	height: 100vh; /* Prend toute la hauteur de l'écran */
+    	overflow: hidden; /* Empêche le contenu de dépasser */
+}
+
+
+
+h1 {
+    	text-align: center;
+    	font-size: 70px;
+    	font-family: Stencil Std, fantasy;
+	color: #c2185b
+}
+
+
+
+
+p {
+    text-align: center;
+    font-size: 1vw; /* Plus grand pour la description */
+    max-width: 80%;
+    margin-bottom: 20px;
+}
+
+
+.cadre-info {
+      	position: absolute;
+      	top: 20px; /* Distance par rapport au haut de l'écran */
+      	right: 20px; /* Distance par rapport au bord droit */
+      	background-color: #0099FF; /* Fond semi-transparent */
+      	color: white; /* Texte en blanc */
+      	padding: 40px 50px; /* Espacement interne */
+      	border-radius: 8px; /* Coins arrondis */
+      	font-family: Arial, sans-serif;
+      	text-align: center;
+    }
+
+.cadre-info .score, .cadre-info .temps {
+    font-size: 1.5vw; /* Augmenter la taille des informations à l'intérieur du cadre */
+}
+
+
+
+.fleche {
+  	font-size: 10vw; /* Taille des fleches proportionelle a l'écran */
+  	font-weight: bold; /* Texte en gras */
+	color: #c2185b;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  	position: absolute;
+}	
+
+
+.conteneurFleches {
+    width: 60vw; /* 80% de la largeur de la fenêtre */
+    height: 60vh; /* 80% de la hauteur de la fenêtre */
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    background-color: #fce4ec;
+    border-radius: 10px;
+}
+
+
+button {
+    width: 50%;
+    text-align : center;
+    padding: 30px 50px; /* Espacement à l'intérieur du bouton (haut-bas, gauche-droite) */
+    font-size: 20px;
+    cursor: pointer; /* Afficher le curseur en forme de main pour indiquer que c'est cliquable */
+    border: 5px; 
+    background-color: #C70039 ;
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s; /* Transition pour les effets de survol */
+    flex-direction: column;
+    color: white;
+}
+
+
+button:hover {
+    background-color:  #C70039; /* bleu foncé lors du survol pour un retour visuel */
+
+}
+
+
