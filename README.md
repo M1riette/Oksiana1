@@ -25,13 +25,13 @@ NAELLE / Avancé du mini jeu qui devrait etre la bataille contre le boss selon l
 MARIETTE / Création de GitHub reussit
 NAELLE / Lit de transport des jeux des fleches
 
-## JjOUR 3: 21/01/2025
+## JOUR 3: 21/01/2025
 
 MARIETTE / Envoie du lien Github
 NAELLE / Avancement sur les jeux des fleches
 
 
-## JOUR 4: 23/01/2025
+## JjOUR 4: 23/01/2025
 
 MARIETTE / Creation pages HTML - Arborescence
 NAELLE / Absente
