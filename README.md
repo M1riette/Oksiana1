@@ -37,6 +37,12 @@ MARIETTE / Creation pages HTML - Arborescence
 NAELLE / Absente
 CARLA / Absente
 
+## JOUR 5: 4/02/2025
+
+CARLA / Oraganisation de l'arborescence
+MARIETTE / Création html + javascript
+NAELLE / Rectification du jeux des fleches
+
 ```bash
 git clone https://github.com/votre-utilisateur/mon-projet.git
 cd mon-projet
