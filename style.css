@@ -24,7 +24,7 @@ h1 {
 
 p {
     text-align: center;
-    font-size: 1vw; /* Plus grand pour la description */
+    font-size: 30px; 
     max-width: 80%;
     margin-bottom: 20px;
 }
@@ -45,6 +45,21 @@ p {
 .cadre-info .score, .cadre-info .temps {
     font-size: 1.5vw; /* Augmenter la taille des informations à l'intérieur du cadre */
 }
+
+
+#decompte {
+    font-size: 200px; /* Texte géant */
+    font-weight: bold;
+    text-align: center;
+    display: none;
+    color: #ffffff; /* Couleur blanche pour les chiffres */
+    text-shadow: 
+        0 0 5px #ffffff,  /* Lueur blanche autour du texte */
+        0 0 10px #ffffff, /* Lueur plus large pour faire ressortir */
+        0 0 15px #c2185b; /* Une lueur néon autour pour l'effet */
+}
+
+
 
 
 
@@ -77,7 +92,7 @@ button {
     font-size: 20px;
     cursor: pointer; /* Afficher le curseur en forme de main pour indiquer que c'est cliquable */
     border: 5px; 
-    background-color: #C70039 ;
+    background-color: #c2185b ;
     border-radius: 5px; /* Coins arrondis */
     transition: background-color 0.3s; /* Transition pour les effets de survol */
     flex-direction: column;
@@ -86,7 +101,7 @@ button {
 
 
 button:hover {
-    background-color:  #C70039; /* bleu foncé lors du survol pour un retour visuel */
+    background-color:  #9b1455; 
 
 }
 
