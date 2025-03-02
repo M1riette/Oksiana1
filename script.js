@@ -41,12 +41,30 @@ const scoreElement = document.getElementById("score");
 
 
 function afficherConteneur() {
-    	conteneurFleches.style.display = 'flex'; // Afficher le conteneur des flèches
+	let decompteElement = document.getElementById("decompte"); // Récupérer l'élément du décompte
+	let compteur = 3; // Début du décompte
 
-	demarrerChrono(); // Démarrer le chrono
-	genererFleche(); // Générer la première flèche immédiatement
+	boutonCommencer.style.display = "none"; // Cacher le bouton commencer
+	decompteElement.style.display = "block"; // Afficher le décompte
 
-	intervalleFleches = setInterval(genererFleche, 700);
+	let intervalleDecompte = setInterval(function() {
+		if (compteur > 0) {
+			decompteElement.textContent = compteur; // Afficher le nombre
+			compteur--;
+		} else {
+			clearInterval(intervalleDecompte); // Arrêter le décompte
+			decompteElement.textContent = "GO !"; // Afficher "GO!"
+            
+			setTimeout(() => {
+				decompteElement.style.display = "none"; // Cacher "GO!"
+				conteneurFleches.style.display = 'flex'; // Afficher les flèches
+				demarrerChrono(); // Démarrer le chrono
+				genererFleche(); // Générer la première flèche immédiatement
+				intervalleFleches = setInterval(genererFleche, 700);
+			}, 1000); // Attendre 1 seconde après "GO!"
+		}
+	}, 1000); // Décompte chaque seconde
+
 }
 
 
