@@ -61,8 +61,6 @@ p {
 
 
 
-
-
 .fleche {
   	font-size: 10vw; /* Taille des fleches proportionelle a l'écran */
   	font-weight: bold; /* Texte en gras */
@@ -102,7 +100,6 @@ button {
 
 button:hover {
     background-color:  #9b1455; 
-
 }
 
 
