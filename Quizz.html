@@ -1,0 +1,65 @@
+<!DOCTYPE html> <!-- Déclare le type de document comme HTML5 -->
+<html lang="fr"> <!-- Définit la langue de la page en français -->
+	
+<head>
+	
+    <meta charset="UTF-8"> <!-- Définit l'encodage des caractères en UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Permet un affichage adaptatif sur mobile -->
+    <title>Quizz</title> <!-- Définit le titre de la page -->
+    <link href="../css/styleQuizz.css" rel="stylesheet"/>
+
+</head>
+
+
+<body>
+<h1>Quizz Oui/Non</h1>
+    
+    <!-- Section des questions -->
+    <div id="quizz">
+        <div class="question" id="question1">
+            <p>Question 1 :.. ?</p>
+            <button class="bouton" onclick="enregistrerReponse('oui', 'question1')">Oui</button>
+            <button class="bouton" onclick="enregistrerReponse('non', 'question1')">Non</button>
+        </div>
+        
+        <div class="question" id="question2">
+            <p>Question 2 : .. ?</p>
+            <button class="bouton" onclick="enregistrerReponse('oui', 'question2')">Oui</button>
+            <button class="bouton" onclick="enregistrerReponse('non', 'question2')">Non</button>
+        </div>
+        
+        <div class="question" id="question3">
+            <p>Question 3 : .. ?</p>
+            <button class="bouton" onclick="enregistrerReponse('oui', 'question3')">Oui</button>
+            <button class="bouton" onclick="enregistrerReponse('non', 'question3')">Non</button>
+        </div>
+        
+        <div class="question" id="question4">
+            <p>Question 4 : .. ?</p>
+            <button class="bouton" onclick="enregistrerReponse('oui', 'question4')">Oui</button>
+            <button class="bouton" onclick="enregistrerReponse('non', 'question4')">Non</button>
+        </div>
+        
+        <div class="question" id="question5">
+            <p>Question 5 : .. ?</p>
+            <button class="bouton" onclick="enregistrerReponse('oui', 'question5')">Oui</button>
+            <button class="bouton" onclick="enregistrerReponse('non', 'question5')">Non</button>
+        </div>
+        
+        <div class="question" id="question6">
+            <p>Question 6 : .. ?</p>
+            <button class="bouton" onclick="enregistrerReponse('oui', 'question6')">Oui</button>
+            <button class="bouton" onclick="enregistrerReponse('non', 'question6')">Non</button>
+        </div>
+        
+        <div class="question" id="question7">
+            <p>Question 7 : .. ?</p>
+            <button class="bouton" onclick="enregistrerReponse('oui', 'question7')">Oui</button>
+            <button class="bouton" onclick="enregistrerReponse('non', 'question7')">Non</button>
+        </div>
+        
+    </div>
+    
+<script src="../js/scriptQuizz.js"></script>
+
+</body>
