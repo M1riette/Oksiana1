@@ -1,0 +1,26 @@
+<!DOCTYPE html> <!-- Déclare le type de document comme HTML5 -->
+<html lang="fr"> <!-- Définit la langue de la page en français -->
+	
+<head>
+	
+    <meta charset="UTF-8"> <!-- Définit l'encodage des caractères en UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Permet un affichage adaptatif sur mobile -->
+    <title>Menu Principal</title> <!-- Définit le titre de la page -->
+    <link href="../css/styleMenu.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+    <h1>OSKIANA</h1> <!-- Titre principal du jeu -->
+    <button class="info-btn" onclick="afficherInfos()">Informations</button> <!-- Bouton pour afficher les informations du jeu -->
+    <button id="demarrerJeu" onclick="window.location.href='../../commun/1.html'">play</button> <!-- Bouton pour commencer le jeu et rediriger vers 1.html -->
+    
+    <div id="descriptionJeu" class="info-content" style="display: none;">
+        <p>Bienvenue dans notre jeu ! Découvrez un univers passionnant et amusez-vous bien.</p>
+    </div> <!-- Texte d'information caché par défaut -->
+    
+<script src="../js/scriptMenu.js"></script>
+ 
+</body>
+
+</html>

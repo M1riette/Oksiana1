@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative
+}
+
+#gif {
+    width: 250px; 
+    position: absolute;
+    bottom: 20px;
+}
+/* Style global de la page */
+body {
+    font-family: Arial, sans-serif;      /* Typographie par défaut */
+    display: flex;                       /* Flexbox pour le centrage */
+    justify-content: center;             /* Centrer horizontalement */
+    align-items: flex-start;             /* Alignement au début pour pouvoir manipuler le bas */
+    height: 100vh;                       /* Utilise toute la hauteur de la fenêtre */
+    margin: 0;                           /* Supprime les marges par défaut */
+    background-color: #f0f0f0;          /* Couleur de fond douce */
+    position: relative;                  /* Nécessaire pour positionner les boutons relatifs au body */
+}
+
+/* Style des boutons */
+button {
+    background: linear-gradient(135deg, violet, pink); /* Dégradé violet/rose */
+    color: white;                           /* Texte blanc */
+    border: 3px solid rgba(0, 0, 139, 0.5);   /* Bord bleu foncé avec 50% de transparence (rgba) */
+    border-radius: 25px;                    /* Bords arrondis */
+    padding: 30px 60px;                     /* Espacement autour du texte */
+    font-size: 32px;                        /* Taille du texte */
+    cursor: pointer;                       /* Pointeur de souris pour le bouton */
+    margin: 0 10px;                         /* Espacement entre les boutons */
+    transition: background 0.3s ease;       /* Transition douce pour la couleur */
+}
+
+/* Effet au survol du bouton */
+button:hover {
+    background: linear-gradient(135deg, pink, violet); /* Inverse le dégradé au survol */
+}
+
+/* Conteneur des boutons */
+.button-container {
+    display: flex;
+    justify-content: center;                /* Centrer horizontalement les boutons */
+    position: absolute;                     /* Positionner absolument par rapport au body */
+    bottom: 30px;                           /* Laisser un espace de 30px du bas de la page */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Image de fond pour page1 */
+.page1 {
+    background-image: url('../medias/LIEUX/1.png');
+}
+
+/* Image de fond pour page2 */
+.page2 {
+    background-image: url('../medias/LIEUX/2.png');
+}
+.page3 {
+    background-image: url('../medias/LIEUX/scene 2.png');
+}
+.page4 {
+    background-image: url('../medias/LIEUX/Scene 4.png');
+}
+.page63 {
+    background-image: url('../medias/LIEUX/Oeil.mp4');
+}
+.page61 {
+    background-image: url('../medias/LIEUX/Scene61.png');
+}
+
+.page51 {
+    background-image: url('../medias/LIEUX/scene51.png');
+}
+.page52 {
+    background-image: url('../medias/LIEUX/scene52.mov');
+}
+.page53 {
+    background-image: url('../medias/LIEUX/Masques.mp4');
+}
+.page54 {
+    background-image: url('../medias/LIEUX/scene54.png');
+}
+.page55 {
+    background-image: url('../medias/LIEUX/scene55.png');
+}
+.page55 {
+    background-image: url('../medias/LIEUX/scene55.png');
+}
+.page7 {
+    background-image: url('../medias/LIEUX/7.png');
+}
