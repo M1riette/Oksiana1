@@ -1,0 +1,61 @@
+body {
+	background: #45b5de  ;
+	color: white; /* Texte blanc */
+	font-family: cursive; /* Police rétro */
+	text-align: center; /* Centrage du texte */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+        /* Style du titre */
+h1 {
+        font-family:'Jersey 10', sans-serif;
+	font-size: 8em; /* Taille plus grande pour le titre */
+	text-shadow: 4px 4px 0px #ffcff2, 8px 8px 0px #9900ff; 
+	/*4px 4px 0px cyan -> Première ombre rose pastel en décalé de 4px pour effet de profondeur */
+	/*8px 8px 0px blue -> Deuxième ombre violet encore plus décalée pour accentuer l'effet pixel */
+}
+
+        /* Style des boutons pixelisés */
+button {
+	background-color:#fc7ead ;
+	color: white;
+	border: 6px solid white; /* Bordure épaisse pour effet pixel */
+	padding: 25px 50px; /* Augmentation de la taille des boutons */
+	margin: 15px;
+	font-size: 1.8em; /* Agrandissement du texte des boutons */
+	cursor: pointer;
+	transition: 0.2s;
+	text-transform: uppercase;
+	font-family: 'Jersey 10', sans-serif;
+	box-shadow: 6px 6px 0px; /* Effet 3D pixelisé */
+}
+
+/* Effet au survol des boutons */
+button:hover {
+	background-color: #3498db;
+	box-shadow: 10px 10px 0px; /* Accentuation de l'effet pixel au survol */
+}
+
+/* Style du texte d'information pixelisé */
+.info-content {
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 20px;
+	border: 6px solid white;
+	box-shadow: 6px 6px 0px white;
+	margin-top: 20px;
+	width: 60%;
+	font-size: 1.5em; /* Agrandissement du texte d'information */
+        font-family:'Jersey 10', sans-serif;
+}
+
+
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

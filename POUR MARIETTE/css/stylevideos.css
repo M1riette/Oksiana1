@@ -1,0 +1,32 @@
+/* Assurer que la vidéo prend toute la largeur et la hauteur de l'écran */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cela permet de conserver les proportions tout en remplissant l'écran */
+}
+
+.ignore-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+}
+
+/* Changer la couleur du bouton au survol */
+.ignore-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}

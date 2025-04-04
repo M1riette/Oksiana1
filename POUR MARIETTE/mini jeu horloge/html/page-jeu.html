@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-jeu de l'horloge</title>
+    <link rel="stylesheet" href="../css/page-jeu.css">
+</head>
+<body>
+    <div class="container">
+    <img src="../Projet/image/girlande.png" alt="Guirlande de fleurs" class="guirlande">
+        <h1>Mini-jeu de l'horloge</h1>
+        <p>Faites correspondre l'horloge blanche avec l'horloge rose.</p>
+
+        <div class="horloges">
+            <div class="horloge">
+                <h2>Exemple</h2>
+                <canvas id="horloge-exemple"></canvas>
+            </div>
+            <div class="horloge">
+                <h2>À ajuster</h2>
+                <canvas id="horloge-joueur"></canvas>
+                <button onclick="ajusterAiguille('heure')">+ Heure</button>
+                <button onclick="ajusterAiguille('minute')">+ Minute</button>
+                <button-val onclick="verifierReussite()">Valider</button-val>
+            </div>
+        </div>
+
+        <p id="message"></p>
+    </div>
+    <script src="../javascript/page-jeu.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #66FFE2;
+}
+
+h1 {
+  color: #ff69b4;
+  text-align: center;
+  font-family : Arial,sans-serif;
+  font-size: 100px;
+}
+
+
+p {
+  color: white;
+  text-align: center;
+  font-family : Arial,sans-serif;
+  font-size: 25px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #FB83B1;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}

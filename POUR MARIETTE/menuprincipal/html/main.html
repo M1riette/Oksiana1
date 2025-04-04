@@ -1,0 +1,31 @@
+<!DOCTYPE html> <!-- Déclare le type de document comme HTML5 -->
+<html lang="fr"> <!-- Définit la langue de la page en français -->
+	
+<head>
+	
+    <meta charset="UTF-8"> <!-- Définit l'encodage des caractères en UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Permet un affichage adaptatif sur mobile -->
+    <title>Menu Principal</title> <!-- Définit le titre de la page -->
+    <link href="../css/styleMenu.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1>OKSIANA</h1> <!-- Titre principal du jeu -->
+    <button class="info-btn" onclick="afficherInfos()">Informations</button> <!-- Bouton pour afficher les informations du jeu -->
+    <button id="demarrerJeu" onclick="window.location.href='../../commun/video1.html'">play</button> <!-- Bouton pour commencer le jeu et rediriger vers 1.html -->
+    
+    <div id="descriptionJeu" class="info-content" style="display: none;">
+        <p>Oksiana is a narrative game in English where your choices impact your story. There are no good or bad endings, only realities that we are willing, or not, to accept.</p>
+        <p></p>
+        <p>You can walk to the left or to the right with ← and → on your keyboard</p>
+    </div> <!-- Texte d'information caché par défaut -->
+    
+<script src="../js/scriptMenu.js"></script>
+ 
+</body>
+
+</html>

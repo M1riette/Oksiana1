@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#gif {
+    width: 250px; 
+    position: absolute;
+    bottom: 20px;
+    z-index:2
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cela permet de conserver les proportions tout en remplissant l'écran */
+    z-index:0
+}
+
+#chat {
+    position: fixed;
+    bottom: 200px;
+    right: 20px;
+    background-color: rgba(36, 98, 35, 1);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+}
+
+/* Changer la couleur du bouton au survol */
+.chat:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Style des boutons */
+button {
+    background: linear-gradient(135deg, violet, pink); /* Dégradé violet/rose */
+    color: white;                           /* Texte blanc */
+    border: 3px solid rgba(0, 0, 139, 0.5);   /* Bord bleu foncé avec 50% de transparence (rgba) */
+    border-radius: 25px;                    /* Bords arrondis */
+    padding: 30px 60px;                     /* Espacement autour du texte */
+    font-size: 32px;                        /* Taille du texte */
+    cursor: pointer;                       /* Pointeur de souris pour le bouton */
+    margin: 0 10px;                         /* Espacement entre les boutons */
+    transition: background 0.3s ease;       /* Transition douce pour la couleur */
+    z-index:1
+}
+
+/* Effet au survol du bouton */
+button:hover {
+    background: linear-gradient(135deg, pink, violet); /* Inverse le dégradé au survol */
+}
+
+/* Conteneur des boutons */
+.button-container {
+    display: flex;
+    justify-content: center;                /* Centrer horizontalement les boutons */
+    position: absolute;                     /* Positionner absolument par rapport au body */
+    bottom: 80px;                          /* Laisser un espace de 30px du bas de la page */
+    right:535px;
+}
+
+#fontaine {
+    position: fixed;
+    bottom: 400px;
+    right: 850px;
+    background-color:rgba(122, 73, 186, 0.56);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+}
+
+/* Changer la couleur du bouton au survol */
+.fontaine:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#masque1Btn {
+    position: fixed;
+    bottom: 100px;
+    right: 1100px;
+}   
+#masque2Btn {
+    position: fixed;
+    bottom: 100px;
+    right: 400px;
+}
+#QUIZZBtn{
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+}
+
+#ForbiddenLandBtn{
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+}
+#masque1 {
+    position: fixed;
+    top: 100px;
+    left: 400px;
+    text-decoration : underline;
+    background-color : blue;
+    z-index:1
+}
+
+#masque2 {
+    position: fixed;
+    top: 100px;
+    right: 400px;
+    text-decoration : underline;
+    background-color : pink;
+    z-index:1
+}
+#bunnyp {
+    position: fixed;
+    top: 100px;
+    right: 600px;
+    text-decoration : underline;
+    background-color : purple;
+    z-index:1
+}
+#monsterp {
+    position: fixed;
+    top: 100px;
+    right: 600px;
+    text-decoration : underline;
+    color: black;
+    background-color : red;
+    z-index:1
+}
+#monster{
+    width: 350px; 
+    position:center;
+}
+#lili{
+    width: 250px; 
+    position:fixed;
+    top: 200px;
+    right: 200px;
+    z-index: 1
+}
+dialog {
+    border: none;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#dialogContent {
+    text-align: center;
+}
+
+#nextBtn {
+    display: block;
+    margin: 20px auto;
+}
+
+#openDialog {
+    position: fixed;
+    bottom: 350px;
+    right: 850px;
+}
+
+/* Changer la couleur du bouton au survol */
+.fontaine:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+#bunny51 {
+    width: 350px; 
+    position: fixed;
+    bottom: 250px;
+    right: 550px;
+}
+
+#bunny54 {
+    width: 350px; 
+    position: fixed;
+    bottom: 200px;
+    right: 800px;
+}
+
+
+
+
+
+
+
+/* Image de fond pour page1 */
+.page1 {
+    background-image: url('../medias/LIEUX/1.png');
+}
+
+/* Image de fond pour page2 */
+.page2 {
+    background-image: url('../medias/LIEUX/2.png');
+}
+.page3 {
+    background-image: url('../medias/LIEUX/scene 2.png');
+}
+.page4 {
+    background-image: url('../medias/LIEUX/Scene 4.png');
+}
+.page63 {
+    background-image: url('../medias/LIEUX/Oeil.mp4');
+}
+.page61 {
+    background-image: url('../medias/LIEUX/Scene61.png');
+}
+.page62 {
+    background-image: url('../medias/LIEUX/aquarium.png');
+}
+
+.page51 {
+    background-image: url('../medias/LIEUX/scene51.png');
+}
+.page53 {
+    background-image: url('../medias/LIEUX/Masques.mp4');
+}
+.page54 {
+    background-image: url('../medias/LIEUX/scene54.png');
+}
+.page55 {
+    background-image: url('../medias/LIEUX/scene55.png');
+}
+.page551 {
+    background-image: url('../medias/LIEUX/551.png');
+}
+.page7 {
+    background-image: url('../medias/LIEUX/7.png');
+}
